@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Job appliction from</h1>
+    <form>
+        <label for="from">Fist name:</label> <br><br>
+        <input type="text" name="From" id="from"><br>
+        <label for="creat from">Email:</label><br> <br>
+        <input type="text" name="creat from" id="creat from"><br>
+        <label for="phone1">Phone:</label><br><br>
+        <input type="text" name="phone1" id="phone1">
+        <br>
+        <br>
+        <label for="uplod file">Resume:</label>
+        <input type="file" name="uplod file" id="uplod file">
+        <br>
+        <br>
+        <label for="counting number">Experience (in years):</label>
+        <input type="number" name="counting" id="counting number" min="0" max="30">
+        <br>
+        <br>
+        <fieldset>
+            <legend>Skills:</legend>
+            <label for="cleck on">HTML</label><br>
+            <input type="checkbox" name="checkbox" id="cleck on"><br><br>
+            <label for="cleck on 2"> CSS</label><br>
+            <input type="checkbox" name="checkbox" id="cleck on 2"><br><br>
+            <label for="cleckon3">JAvascript</label><br>
+            <input type="checkbox" name="chek" id="cleckon3"><br><br>
+        </fieldset>
+        <br>
+        <label for="eductionTytpe">Higer Eduction:</label>
+        <select name="eductionTytpe" id="eductionTytpe">
+            <option value="higschool">A</option>
+            <option value="midelschool">B</option>
+            <option value="histel">C</option>
+            <option value="cu">D</option>
+        </select>
+        <br>
+        <fieldset>
+            <legend> Availability:</legend>
+
+            <label for="radio1">Full time</label>
+            <input type="radio" name="button" id="radio1">
+            <br>
+            <label for="radio2"> Part time</label>
+            <input type="radio" name="select" id="radio2">
+            <br>
+
+        </fieldset>
+        <br>
+        <label for="textarea1">Additional comments:</label>
+        <br>
+        <textarea name="textarea" id="textarea1" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" name="symit" id="sumit1">
+    </form>
+
+</html>
